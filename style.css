@@ -10,3 +10,50 @@ body {
   min-width: 100%;
   font-family: Arial, sans-serif;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.nav-menu1 ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    list-style-type: none;
+    color: #838484;
+    font-weight: 600;
+}
+
+.nav-menu1 ul li{cursor: pointer;
+
+}
+
+.nav-menu2 ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    list-style-type: none;
+    color: #838484;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.nav-menu2 ul li{cursor: pointer;
+
+}
+
+.nav-menu2 ul i{cursor: pointer;
+
+}
+.nav-menu2 ul button{
+    color: aliceblue;
+    background-color: #1778DE;
+    cursor: pointer;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    padding: 5px;
+}
+
