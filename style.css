@@ -11,10 +11,16 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.container{display: flex;
+    flex-direction: column;
+
+}
+
+
 nav{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 20px;
 }
 
@@ -76,4 +82,36 @@ nav{
 
 .nav-menu2 ul button:hover{
    background-color: #014b99;
+}
+
+main{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 76vh;
+    gap: 1.3rem;
+
+}
+
+
+.search{
+font-size: 35px;
+border-radius: 30px;
+font-weight: 100;
+max-width: 50vh;
+max-height: 50vh;
+border: 1px solid black;
+}
+
+
+
+.google-buttons{display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.google-buttons button{
+    font-size: 1rem;
+    padding: 10px;
 }
