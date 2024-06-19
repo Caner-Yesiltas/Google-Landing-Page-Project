@@ -45,7 +45,10 @@ nav{
 
 }
 
-.nav-menu2 ul i{cursor: pointer;
+.nav-menu2 ul img{cursor: pointer;
+    margin-top: -5px;
+    border-radius: 5px;
+    
 
 }
 .nav-menu2 ul button{
@@ -55,5 +58,22 @@ nav{
     font-size: 0.8rem;
     border-radius: 5px;
     padding: 5px;
+    margin-top: -5px;
 }
 
+.nav-menu1 ul li:hover{
+    text-decoration: underline;
+}
+
+.nav-menu2 ul li:hover{
+    text-decoration: underline;
+}
+
+
+.nav-menu2 ul img:hover{
+    background-color: #838484;
+}
+
+.nav-menu2 ul button:hover{
+   background-color: #014b99;
+}
